@@ -34,13 +34,6 @@ export default function Period(props: PeriodProps) {
       label: locale.dayOption || DEFAULT_LOCALE_EN.dayOption,
     },
     {
-      value: 'hour',
-      label: locale.hourOption || DEFAULT_LOCALE_EN.hourOption,
-    },
-    {
-      value: 'minute',
-      label: locale.minuteOption || DEFAULT_LOCALE_EN.minuteOption,
-    },
   ]
 
   if (shortcuts && (shortcuts === true || shortcuts.includes('@reboot'))) {
