@@ -19,7 +19,7 @@ export default function CustomSelect(props: CustomSelectProps) {
     clockFormat,
     optionsList,
     unit,
-    ...selectProps,
+    ...selectProps
   } = props
 
   const stringValue = useMemo(() => {
@@ -94,9 +94,9 @@ export default function CustomSelect(props: CustomSelectProps) {
 
   const simpleClick = useCallback(
     (event: any) => {
-      let newValueOption: number[] = event.target.value;
+      let newValueOption: number[] = event.target.value
       if (newValueOption.length == 0) {
-        newValueOption.push(0);
+        newValueOption.push(0)
       }
       newValueOption = Array.isArray(newValueOption)
         ? sort(newValueOption)

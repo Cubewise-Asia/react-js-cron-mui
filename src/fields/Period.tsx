@@ -33,7 +33,6 @@ export default function Period(props: PeriodProps) {
       value: 'day',
       label: locale.dayOption || DEFAULT_LOCALE_EN.dayOption,
     },
-    {
   ]
 
   if (shortcuts && (shortcuts === true || shortcuts.includes('@reboot'))) {
